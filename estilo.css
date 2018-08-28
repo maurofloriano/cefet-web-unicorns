@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+
+.destacado{
+	background-color: #c4caf3;
+    color: #004a79;
+	margin-left: -12px;
+	margin-right: -8px;
+}
+
+
+#bottom{
+	margin-bottom: 40px;
+}
+
+#hoje p{
+    padding-right: 35px;
+	padding-left: 35px;
+	text-align: center;
+}
+
+#hoje img{
+    width: 112px;
+	height: 112px;
+	display: block;
+    margin: 0 auto;
+}
+
+#hoje{
+    width: 405px;
+	background-color: #f8cef7;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ff56fb;
+	float: right;
+	margin-right: 17px;
+}
+
+#hoje h2{
+	text-align: center;
+	margin: 0;
+}
+
+#hoje h3 {
+	font-family: Times;
+	font-size: 18px;
+	text-align: center;
+	font-weight: normal;
+}
+
+#imagem{
+    width: 310px;
+	
+	float: left;
+	margin-right: 13px;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+	font-size: 36px;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+h2{
+    font-family: 'Times new Roman';
+	font-size: 24px;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Times new Roman';
+	font-size: 18px;
+}
+
+p{
+    font-family: 'Arial';
+	font-size: 14px;
+}
+
+#cabecalho{
+    background-color: #6175f0;
+	color: white;
+	padding-top: 20px;
+	padding-left: 34px;
+	padding-bottom: 13px;
+}
+
+#cabecalho h2 {
+	font-family: 'Times New Roman';
+	font-size: 24px;
+	color: white;
+	font-weight: normal;
+	margin: 0;
+}
+#musica > .destacado {
+	padding: 0;
+}
+
+
+#musica  p:nth-child(odd) {
+    margin-left: 34px;
+}	
+
+
+#musica{
+    margin-left: 4px;
+}	
+
+#musica p, #musica h2 {
+    padding-left: 12px;
+	margin-bottom:	 0;
+}	
+
+
+#musica .destacado p:nth-child(odd) {
+    margin-left: 12px;
+}
+
+#musica .destacado p:nth-child(even) {
+    margin-left: 34px;
+}
